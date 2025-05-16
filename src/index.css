@@ -9,7 +9,6 @@
 
 header {
   height: auto;
-  width: 100vw;
   position: relative;
   display: flex;
   justify-content: center;
