@@ -5,7 +5,8 @@ import data from './data';
 import './App.css';
 
 function App() {
-  const components = data.map((item) => <MainSection {...item} />);
+  const components = data.map((onsen, idx) => <MainSection key={idx} {...onsen} />);
+
   return (
     <div>
       <Header />

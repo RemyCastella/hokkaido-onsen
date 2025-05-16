@@ -1,6 +1,7 @@
 import React from 'react';
+import { OnsenData } from '../types/onsen';
 
-export default function MainSection(props) {
+export default function MainSection(props: OnsenData) {
   return (
     <section>
       <div className="card">
@@ -15,11 +16,11 @@ export default function MainSection(props) {
                 version="1.1"
                 id="Capa_1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 width="800px"
                 height="800px"
                 viewBox="0 0 425.963 425.963"
-                xml:space="preserve"
+                xmlSpace="preserve"
               >
                 <g>
                   <path

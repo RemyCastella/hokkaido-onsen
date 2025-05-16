@@ -3,8 +3,9 @@ import goshiki from './assets/goshiki.jpg';
 import hoheikyo from './assets/hoheikyo.jpg';
 import kiyora from './assets/kiyora.jpeg';
 import tappu from './assets/tappu.jpg';
+import { OnsenData } from './types/onsen';
 
-export default [
+const data: OnsenData[] = [
   {
     img: banya,
     name: '番屋の湯',
@@ -41,3 +42,5 @@ export default [
     char: '札幌市内で唯一貯湯タンクすら使わず、直接湧き出る温泉で、床や壁には鉄分やカルシウムなどが鍾乳石のように結晶化している。露天風呂も日本最大級で、大自然の中で最高級の温泉を楽しめます。',
   },
 ];
+
+export default data
